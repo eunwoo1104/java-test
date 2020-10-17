@@ -11,6 +11,10 @@ public class Main
 
     public void idk(){
         int a = this.rand.refreshNum();
+        for(int i = 0; i<10; i++){
+            pr(Integer.toString(this.rand.num));
+            this.rand.refreshNum();
+        }
         pr(Integer.toString(a));
     }
 
